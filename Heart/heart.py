@@ -9,9 +9,9 @@ pygame.display.set_caption("LOVE YOU")
 clock = pygame.time.Clock()
 
 TEXT = "LOVE YOU"
-S = 21.5                      # اندازه قلب
+S = 21.5                   
 OX = W // 2
-OY = H // 2 - 2.5 * S         # مبدأ معادله (لایه‌ها دور این نقطه کوچک می‌شن)
+OY = H // 2 - 2.5 * S       
 FONT_NAMES = "helveticaneue,arial,dejavusans"
 
 # (مقیاس لایه، اندازه فونت، تعداد نقطه)
@@ -82,7 +82,7 @@ while running:
     for e in pygame.event.get():
         if e.type == pygame.QUIT or (e.type == pygame.KEYDOWN and e.key == pygame.K_ESCAPE):
             running = False
-        if e.type == pygame.KEYDOWN and e.key == pygame.K_r:   # R = پخش دوباره‌ی انیمیشن
+        if e.type == pygame.KEYDOWN and e.key == pygame.K_r: 
             points = build_points()
             start = pygame.time.get_ticks() / 1000
 
