@@ -14,7 +14,7 @@ OX = W // 2
 OY = H // 2 - 2.5 * S       
 FONT_NAMES = "helveticaneue,arial,dejavusans"
 
-# (مقیاس لایه، اندازه فونت، تعداد نقطه)
+
 LAYERS = [
     (1.00, 15, 300),
     (0.88, 14, 270),
